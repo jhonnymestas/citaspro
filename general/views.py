@@ -70,7 +70,7 @@ def login_inicio_sesion(request):
                             usuario.profesional.especialidad and
                             usuario.profesional.especialidad.nombre == "Neurología"
                         ):
-                            estado = True
+                            estado = False
                     except AttributeError:
                         pass
 
