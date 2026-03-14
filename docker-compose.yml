@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   flask_app:
-    image: aldovasquez07/cs_prof_2025:flask
+    image: jhonnymestas/citaspro:flask
     container_name: flask_app
     ports:
       - "5000:5000"
@@ -11,7 +11,7 @@ services:
       - appnet
 
   django_app:
-    image: aldovasquez07/cs_prof_2025:django
+    image: jhonnymestas/citaspro:django
     container_name: django_app
     ports:
       - "8000:8000"
