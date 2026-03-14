@@ -22,8 +22,8 @@ Si tu versión es inferior a 3.13.2, descarga la última versión desde [python.
 ## 📥 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/AldoVasquez07/mn_cs_prof_2025.git
-cd mn_cs_prof_2025
+git clone https://github.com/jhonnymestas/citaspro.git
+cd citaspro
 ```
 
 ---
@@ -122,7 +122,7 @@ docker-compose down
 Si quieres ejecutar el proyecto **sin clonar el código**, solo desde la imagen:
 
 ```bash
-docker pull aldovasquez07/flask-hybrid-app:latest
+docker pull jhonnymestas/flask-hybrid-app:latest
 ```
 
 ---
@@ -130,7 +130,7 @@ docker pull aldovasquez07/flask-hybrid-app:latest
 ## ▶️ 8. Ejecutar la imagen descargada desde Docker Hub
 
 ```bash
-docker run -p 8000:8000 aldovasquez07/flask-hybrid-app:latest
+docker run -p 8000:8000 jhonnymestas/flask-hybrid-app:latest
 ```
 
 Esto iniciará el backend listo para usar en:
@@ -174,7 +174,7 @@ docker rm <CONTAINER_ID>
 ### Eliminar imagen:
 
 ```bash
-docker rmi aldovasquez07/flask-hybrid-app:latest
+docker rmi jhonnymestas/flask-hybrid-app:latest
 ```
 
 ### Limpiar contenedores y volúmenes de Docker Compose:
